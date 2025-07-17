@@ -65,14 +65,13 @@ a:hover {
     margin-top: 12%;
     width: 300px;
     height: 300px;
-    border: 0px solid rgb(55, 52, 52)  ;
+    border: 0px solid;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 18%;
-    background-color: rgb(55, 52, 52);
     box-shadow: 0 0 40px 15px rgb(27, 26, 26), 0 0 80px 30px rgb(44, 43, 43);
 }
 
