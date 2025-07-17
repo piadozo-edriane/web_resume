@@ -3,193 +3,73 @@
     padding: 0px;
 }
 
-
-.top-nav-bar {
-    background-color: #e0dfdf;
-    overflow: hidden;
-    font-style: "sans-serif";
+body {
+    background-color: rgb(29, 23, 23);
 }
 
-.top-nav-bar a {
-    float: right;
-    color: rgb(69, 68, 68);
+.navigation-border {
+    border: solid 0px black;
+    margin-top: 2%;
+    position: relative;
+}
+
+.navigation-container {
     text-align: center;
-    padding: 14px 16px;
+}
+
+.navigation-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    margin-right: 5%;
-}
-
-.top-nav-bar a:hover {
-    background-color: #434343;
     color: white;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    margin-right: 40px;
 }
 
-.information-container {
-    margin-top: 15%;
-    margin-left: 40%;
-    font-family: "Roboto", sans-serif;
+a:hover {
+    text-decoration: underline;
 }
 
-.role-container {
-    color: rgb(185, 183, 183);
-    margin-top: 20%;
+.smoke-container {
+    margin-top: 0;
 }
-
-.name-con   tainer {
-    margin-top: 1%;
-}
-
-.details-container {
-    margin-top: 1%;
-}
-
-.details-container p {
-    color: rgb(185, 183, 183);
-    font-weight: 100px;
-}
-
-.name-container h1 {
-    font-size: 40px;
+#gray_mist {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92.5vh;
+    position: absolute;
+    opacity: 30%;
 }
 
 .circle-border {
     position: absolute;
-    margin-top: -12%;
+    margin-top: 10%;
     width: 300px;
     height: 300px;
-    border: 5px solid #ad9999;
+    border: 0px solid rgb(55, 52, 52)   ;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 15%;
-    background-color: rgb(244, 233, 233);
+    background-color: rgb(55, 52, 52);
+    box-shadow: 0 0 40px 15px rgb(27, 26, 26), 0 0 80px 30px rgb(44, 43, 43);
 }
 
 .circle-border img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.button-container {
-    margin-top: 2%;
-    margin-left: 40%;
-}
-
-#contact_form {
-    padding: 10px 30px;
-    background-color: rgb(161, 158, 158);
-    color: #fffafa;
-    border: 1px solid #d9d9d9;
-    border-radius: 20px;
-    font-size: 14px;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    margin-left: 5px;
-}
-
-#curriculum_vitae {
-    padding: 10px 30px;
-    background-color: rgb(161, 158, 158);
-    color: #fffafa;
-    border: 1px solid #d9d9d9;
-    border-radius: 20px;
-    font-size: 14px;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-#contact_form:hover {
-    background-color: rgb(75, 63, 63);
-}
-
-#curriculum_vitae:hover{
-    background-color: rgb(75, 63, 63);
-}
-
-.icon-border {
-    color: #f1efef;
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 4px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #494343;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(70, 68, 68);
-}
-
-.name-logo {
-    position: absolute;
-    margin-left: 6%;
-    margin-top: 15px;
-    font-family: "Roboto", sans-serif;
-    color: rgb(69, 68, 68);
-
-}
-
-.what-I-do-section {
-    margin-top: 22%;
-    padding: 0 5%;
-    font-family: "Roboto", sans-serif;
-    color: rgb(69, 68, 68);
-}
-
-.what-I-do-section h3 {
-    font-size: 40px;
-}
-
-.what-I-do-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    margin-top: 30px;
-
-}
-
-.what-I-do-container,
-.web-container,
-.game-container {
-    max-width: 400px;
-}
-
-.short-description p,
-.short-description-web p,
-.short-description-game p{
-    padding: 3px;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-top: 10px;
-}
-
-.testimonial-section {
-    margin-top: 5%;
-    padding: 0 5%;
-    font-family: "Roboto", sans-serif;
-    color: rgb(69, 68, 68);
-}
-
-.testimonial-section h3 {
-    font-size: 40px;
-}
-
-.testimonial-section p {
-    padding: 3px;
-    font-size: 20px;
-    line-height: 1.6;
-    margin-top: 10px;
 }
